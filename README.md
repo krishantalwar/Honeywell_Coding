@@ -5,12 +5,23 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 # For Setup Project 
 
+## For Setup Project 
+
+- use .env.example as .env file
+
+## Run command
+
 - composer install
 
 
-## Run migration
+## Run migration or Import Database
+
+## For migration
 
 - php artisan migrate:fresh --seed --seeder=PermissionsSeeder   or   php artisan migrate
+
+## Import Database
+- Database also attached. you can easily import. file name laravel.sql
 
 
 
